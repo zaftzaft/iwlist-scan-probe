@@ -1,0 +1,10 @@
+[Unit]
+Description=iwlist timer
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10sec
+
+[Install]
+WantedBy=timers.target
+

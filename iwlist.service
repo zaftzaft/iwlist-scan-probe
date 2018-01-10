@@ -1,0 +1,10 @@
+[Unit]
+Description=iwlist
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /opt/iwlist-scanning-parser.js
+
+[Install]
+WantedBy=default.target
+
